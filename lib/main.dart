@@ -9,6 +9,11 @@ ColorScheme kDarkColorScheme = ColorScheme.fromSeed(
     seedColor: const Color.fromARGB(255, 51, 64, 90));
 
 void main() {
+  /* WidgetsFlutterBinding.ensureInitialized(); modos obligatorios
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
+      .then((value) {
+    
+  });*/
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     darkTheme: ThemeData.dark().copyWith(
